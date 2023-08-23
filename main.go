@@ -101,7 +101,7 @@ func main() {
 
 	// Routes
 	e.GET("/", func(c echo.Context) error {
-		return c.JSON(http.StatusOK, "Hello! Welcome to the API!!!")
+		return c.JSON(http.StatusOK, "API CHANGED SUCCESS")
 	})
 	e.POST("/users", createUser)
 	e.GET("/users/:id", getUser)
